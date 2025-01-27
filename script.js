@@ -3,7 +3,7 @@ function generateWord(numLetters) {
     let alphabet = "abcdefghijklmnopqrstuvwxyz";
     let i = 0;
     while (i<numLetters) {
-        let characterOrder = Math.floor(Math.random() * alphabet.lenght);
+        let characterOrder = Math.floor(Math.random() * alphabet.length);
         word += alphabet[characterOrder];
 //      word += characterOrder + " ";
         i++;
