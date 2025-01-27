@@ -11,4 +11,13 @@ function generateWord(numLetters) {
     return word;
 }
 
-console.log(generateWord(5));
+function generateSentence(numWords) {
+    let sentence = ""
+    let i = 0;
+    while (i<numWords) {
+        sentence += generateWord(5);
+    }
+    return sentence;
+}
+
+console.log(generateSentence(5));
