@@ -14,7 +14,7 @@ function generateWords(numWords) {
     let sentence = "";
     let i = 0;
     while (i < numWords) {
-        sentence += generateLetters(Math.floor(Math.random() * (7 - 2 + 1)) + 2) + " ";
+        sentence += generateLetters(Math.floor(Math.random() * (7 - 2 + 1)) + 2) + " "; // Random number between 2 and 7
         i++;
     }
     sentence = sentence.trim() + ". "; // Remove trailing space and add period
